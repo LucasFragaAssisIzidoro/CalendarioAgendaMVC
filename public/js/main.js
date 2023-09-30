@@ -33,16 +33,12 @@
                     }
                 }
 
-                //alert('Clicou em : ' + info.dateStr);
             },
             eventClick: function (info) {
                 if (perfil == 'manager') {
                     win.location.href = `http://localhost/calendarioMVC/app/views/paginas/editar.php?id=${info.event.id}`
-                } else {
-                    alert('oi');
-                }
+                } 
 
-                //alert('Clicou em : ' + info.dateStr);
             },
             themeSystem: 'bootstrap',
             events: 'http://localhost/calendarioMVC/app/controllers/ControllerEventos.php'

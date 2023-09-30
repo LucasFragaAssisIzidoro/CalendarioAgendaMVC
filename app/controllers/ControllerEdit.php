@@ -14,3 +14,5 @@ $end = new \DateTime($date.''.$fim, new \DateTimeZone('America/Sao_Paulo'));
 
 
 $objEvents->atualizarEvento($id,$title,$description,$start->format('Y-m-d H:i:s'), $end->format('Y-m-d H:i:s'),);
+
+header("Location:http://localhost/calendarioMVC/app/views/paginas/calendarioAdm.php");

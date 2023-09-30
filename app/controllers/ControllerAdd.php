@@ -12,4 +12,6 @@ $start = new \DateTime($date.''.$inicio, new \DateTimeZone('America/Sao_Paulo'))
 $end = new \DateTime($date.''.$fim, new \DateTimeZone('America/Sao_Paulo'));
 
 
-$objEvents->criarEvento(0,0,$title,$description,'blue',$start->format('Y-m-d H:i:s'), $end);
+$objEvents->criarEvento(0,0,$title,$description,'blue',$start->format('Y-m-d H:i:s'), $end->format('Y-m-d H:i:s'));
+
+header("Location:http://localhost/calendarioMVC/app/views/paginas/calendarioUsuario.php");
