@@ -1,0 +1,16 @@
+{
+    "name": "lucas/calendariomvc",
+    "description": "Calendario agenda de eventos com PHP",
+    "autoload": {
+        "psr-4": {
+           "Helpers\\": "c:/xampp/htdocs/calendarioMVC/app/helpers",
+           "Models\\": "c:/xampp/htdocs/calendarioMVC/app/models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Fraga de Assis Izidoro"
+        }
+    ],
+    "require": {}
+}
